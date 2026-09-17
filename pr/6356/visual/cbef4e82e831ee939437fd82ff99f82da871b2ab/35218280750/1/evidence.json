@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "repo": "facebook/astryx",
+  "pr": 6356,
+  "headSha": "cbef4e82e831ee939437fd82ff99f82da871b2ab",
+  "testedSha": "cbef4e82e831ee939437fd82ff99f82da871b2ab",
+  "baseSha": "605fa9aa70543cfe43227cf67b80a671e6dc9fed",
+  "run": {
+    "id": 35218280750,
+    "attempt": 1
+  },
+  "capture": {
+    "platform": "linux-arm64",
+    "browser": "chromium-149.0.7827.0",
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "deltas": [],
+  "verdict": {
+    "version": 1,
+    "status": "pass",
+    "generatedAt": "2026-09-17T13:10:46.335Z",
+    "context": {
+      "sha": "cbef4e82e831ee939437fd82ff99f82da871b2ab",
+      "runId": "35218280750",
+      "runAttempt": "1",
+      "headSha": "cbef4e82e831ee939437fd82ff99f82da871b2ab",
+      "baseSha": "605fa9aa70543cfe43227cf67b80a671e6dc9fed",
+      "ref": "refs/heads/main",
+      "trustedScope": {
+        "hasStableVisual": true,
+        "broadStableVisual": false,
+        "stableComponents": [
+          "ToggleButton"
+        ],
+        "stableCoreFiles": [
+          "packages/core/src/ToggleButton/ToggleButton.tsx",
+          "packages/core/src/ToggleButton/__tests__/ToggleButton.a11y.chromium.spec.ts"
+        ],
+        "stableThemes": [],
+        "canaryPackages": []
+      }
+    },
+    "platform": "linux-arm64",
+    "baseline": {
+      "capturedAt": "2026-09-12T01:13:50.430Z",
+      "sha": "e72a3662fd6dbdaf226dfba41a90a70b6827a6a4",
+      "platform": "linux-arm64"
+    },
+    "counts": {
+      "total": 2,
+      "unchanged": 2,
+      "changed": 0,
+      "added": 0,
+      "removed": 0,
+      "failed": 0
+    },
+    "changes": [],
+    "added": [],
+    "removed": [],
+    "failures": [],
+    "targeting": {
+      "unexercisedOverrides": [],
+      "undeclaredTargets": [],
+      "uncoveredTargets": []
+    }
+  }
+}
